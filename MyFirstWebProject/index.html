@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>My Sample Website</title>
+  </head>
   <body>
     <main>
       <section>
@@ -44,8 +47,44 @@
       <form action="https://freecatphotoapp.com/submit-cat-photo">
         <input type="text" placeholder="Full name" name="fullname" />
         <input type="text" placeholder="Email address" name="email" required />
+        <fieldset>
+          <legend>Contact us</legend>
+
+          <input
+            id="my-favorite"
+            type="radio"
+            name="employee-customer"
+            value="employee"
+          />
+          <label for="my-favorite"> Employee </label>
+
+          <label
+            ><input type="radio" name="employee-customer" value="customer" />
+            Customer
+          </label>
+        </fieldset>
+        <fieldset>
+          <input id="blue" type="checkbox" name="colors" value="blue" />
+          <label for="blue">Blue</label>
+
+          <input id="yellow" type="checkbox" name="colors" value="yellow" />
+          <label for="yellow">Yellow</label>
+
+          <input id="red" type="checkbox" name="colors" value="red" />
+          <label for="red">Red</label>
+        </fieldset>
         <button type="submit">Submit</button>
       </form>
+
+      <footer>
+        <p>
+          No
+          <a
+            href="https://www.ic.gc.ca/eic/site/cipointernet-internetopic.nsf/eng/wr03719.html"
+            >Copyright</a
+          >
+        </p>
+      </footer>
     </main>
   </body>
 </html>
