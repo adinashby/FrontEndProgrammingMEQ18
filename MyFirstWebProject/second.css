@@ -33,3 +33,12 @@ p {
     width: 75%;
   }
 }
+
+nav > a {
+  color: green;
+  font-size: 40px;
+}
+
+.main .gallery,
+.background-setup {
+}
