@@ -1,0 +1,7 @@
+.my-btn:hover {
+  background-color: blue;
+}
+
+.my-btn:active {
+  background-color: yellow;
+}
