@@ -141,3 +141,47 @@ if (addNumbers(5, 6) == 11) {
 console.log(true == 1);
 console.log(1 == 1);
 console.log(true === 1);
+
+let input = "c";
+
+switch (input) {
+  case "a":
+    console.log("A");
+    break;
+  case "b":
+    console.log("B");
+    break;
+  default:
+    console.log("No match");
+}
+
+let a = null;
+let b = null;
+let c = 12;
+
+console.log(a ?? b ?? c);
+
+function sayHi() {
+  console.log("Hello");
+}
+
+console.log(sayHi);
+sayHi();
+
+let user = {
+  // an object
+  name: "John", // by key "name" store value "John"
+  age: 30, // by key "age" store value 30
+};
+
+console.log(user.name);
+console.log(user.age);
+
+user.isAdmin = true;
+
+console.log(user.isAdmin);
+
+delete user.age;
+
+console.log(user);
+
